@@ -1,0 +1,26 @@
+{
+  "name": "resto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sdk":"./node_modules/.bin/lb-sdk server/server.js ../web/src/app/share/lbsdk -d ng2web -i disable" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stafoxter/resto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stafoxter/resto/issues"
+  },
+  "homepage": "https://github.com/stafoxter/resto#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@mean-expert/loopback-sdk-builder": "^2.3.1"
+  }
+}
